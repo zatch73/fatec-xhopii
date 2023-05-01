@@ -1,0 +1,94 @@
+.conteudo-visao{
+    background-color: rgb(195, 195, 195);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteudo-visao-box{
+    background-color: white;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: auto;
+}
+
+.conteudo-bloco{
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 0 5px gray;
+    width: 160px;
+}
+
+.conteudo-bloco img{
+    width: 100px;
+    height: 100px;
+}
+#cli-email{
+    word-wrap: break-word;
+}
+.conteudo-bloco a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #CEC4C6;
+}
+
+strong{
+    color: black;
+}
+.conteudo-bloco a:visited{
+    color: #CEC4C6;
+}
+
+.conteudo-bloco a h2{
+    color: gray;
+    margin: 0px;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.conteudo-bloco a .produto-img{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.conteudo-bloco a section img{
+    border-radius: 20px;
+}
+
+.conteudo-bloco a .produto-alinah{
+    display: flex;
+}
+.conteudo-bloco a .produto-alinah section{
+    padding-right: 5px;
+}
+
+.conteudo-bloco a .produto-biaxo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.conteudo-bloco a .produto-biaxo #preco-produto{
+    color: rgb(251, 86, 48);
+}
+.conteudo-visao h1{
+    color: rgb(251,86,48);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 25px;
+    margin: 0px;
+}
+
+.conteudo-visao .conteudo-2{
+    background-color: white;
+    width: 80%;
+    height: 30px;
+    text-align: center;
+    padding-top: 20px;
+}
+.pula{
+    max-width: 100px;
+    word-wrap: break-word;
+}

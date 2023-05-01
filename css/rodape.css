@@ -1,0 +1,56 @@
+footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: rgb(245, 245, 245);
+}
+.rodape-login{
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+}
+
+.rodape-login #dados{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.rodape-login #dados section p{
+    color: gray;
+    font-size: 14px;
+}
+.rodape-login #dados section h5{
+    color: rgb(100, 100, 100);
+}
+
+.rodape-login #resto{
+    width: 100%;
+    text-align: center;
+}
+.rodape-login .pagamento li, .social-links li{
+    list-style: none;
+}
+.rodape-login .pagamento ul{
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+.rodape-login .social-links ul{
+    padding: 0;
+}
+.rodape-login .social-links a{
+    text-decoration: none;
+    color: gray;
+}
+.rodape-login .xhopii-app .xhopii-app-images{
+    display: grid;
+    justify-content: center;
+}
+.rodape-login .xhopii-app .xhopii-app-images img{
+    margin: 10px;
+    width: 80px;
+}

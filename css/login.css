@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240,240,240);
+}
+header .cabecalho-logo h1{
+    color: rgb(251, 119, 48);
+    font-size: 22px;
+    margin-right: 7px;
+}
+header .cabecalho-logo img{
+    height: 60px;
+    width: 60px;
+    margin-top: 5px;
+    display: inline;
+}
+header .cabecalho-logo{
+    width: 18%;
+    margin-left: 2%;
+    margin-right: 30%;
+    display: flex;
+    justify-content: center;
+}
+header .cabecalho-logo .texto{
+    color: #000;
+}
+header .ajuda a{
+    text-decoration: none;
+    color: rgb(251, 119, 48);
+}
+#login-box #login{
+    background-color: white;
+    width: 350px;
+    border-radius: 5px;
+    padding: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#login-box #login form #login-submit{
+    width: 100%;
+    color: white;
+    background-color: rgb(251, 86, 48);
+    height: 40px;
+    border: 2px solid black;
+}
+
+#login-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(251, 86, 48);
+}
+
+#login-box #login form .login-input{
+    width: 93%;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+#login-box #login #links{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#login-box #login #links a{
+    color: rgb(0, 70, 250);
+    text-decoration: none;
+    font-size: 14px;
+    
+}
+#login-box #login #links a:visited{
+    color: rgb(0, 70, 250);
+}
+
+#login-box #login #ou{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+#login-box #login #ou hr{
+    width: 45%;
+    background-color: black;
+    height: 0.1px;
+}
+#login-box #login #links-botao{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#login-box #login #links-botao button{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: 0.1px solid gray;
+    border-radius: 5px;
+}
+
+#login-box #login #links-botao button:hover{
+    border: 0.1px solid red;
+}
+#login-box #login #links-botao button img{
+    width: 30px;
+    margin-right: 10px;
+}
+
+#login-box #login p a{
+    color: rgb(251, 86, 48);
+    text-decoration: none;
+}
+
+#login-box #login p l{
+    color: gray;
+}
+
+#login-box #login p a:visited{
+    color: rgb(251, 86, 48);
+    text-decoration: none;
+}

@@ -1,0 +1,67 @@
+.carrossel-box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carrossel {
+    position: relative;
+    width: 1060px;
+    height: 270px;
+    overflow: hidden;
+}
+.carrossel-fotos {
+    display: flex;
+    width: calc(1060px * 4);
+    height: 270px;
+    transition: transform 0.5s ease-in-out;
+    margin: 0;
+}
+.carrossel-fotos img {
+    width: 1060px;
+    height: 270px;
+    margin: 0;
+}
+.carrossel-prev,
+.carrossel-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+.carrossel-prev {
+    left: 0;
+}
+.carrossel-next {
+    right: 0;
+}
+.carrossel-btns {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.carrossel-btn {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 10px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+.carrossel-btn.active {
+    background-color: white;
+}
+.carrossel-next img{
+    width: 40px;
+    height: 40px;
+}
+.carrossel-prev img{
+    width: 40px;
+    height: 40px;
+}

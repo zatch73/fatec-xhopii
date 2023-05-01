@@ -1,0 +1,14 @@
+.conteudo-visao{
+    width: 100%;
+    background-color: rgb(195, 195, 195);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conteudo-visao .conteudo-visao-box{/*
+    background-color: rgb(240,240,240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;*/
+}

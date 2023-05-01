@@ -1,0 +1,16 @@
+.file-select{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.file-select #file-button{
+    border: 1px solid rgb(251, 119, 48);
+    color: rgb(251, 119, 48);
+    border-radius: 12px;
+    padding: 18px;
+    cursor: pointer;
+}
+.file-select #selecionado{
+    margin: 20px;
+}
